@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Gen AI</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <main class="background">
+        <div class="background__overlay"></div>
+       <nav>
+        <h1 class="logo">G.</h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li> 
+        </ul>
+        <div class="laptop-hidden">
+            <i class="fa-solid fa-bars" id="hamIcon"></i>
+        </div>
+        <ul class="laptop-hidden mobile-nav hidden" id="mobileNav">
+            <li><a href="" class="mobile-link">Home</a></li>
+            <li><a href="" class="mobile-link">About</a></li>
+            <li><a href="" class="mobile-link">Contact</a></li> 
+        </ul>
+       </nav>
+       <header>
+        <div>
+        <h1 class="header__title">Welcome to<br /> GEN AI</h1>
+        <p class="header__description">We are building something cool for all the prompt engineers and AI Enthusiasts out there</p>
+        <button class="header__button" data-modal-target="#modal">Know more</button>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+                <button class="close-button" data-close-button>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Thank you for your intrest in company!</p>
+            </div>
+        </div class="modal-overlay" id="overlay">
+       
+       </div>
+       </header>
+    </main>
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/e27bd23adb.js" crossorigin="anonymous"></script>    
+</body>
+</html>
